@@ -17,26 +17,26 @@
     --base-font-size:16px;
 
     /* Colors */
-    --bg: #0f1724; /* deep navy */
-    --surface: #0b1220;
-    --muted: #94a3b8;
-    --text: #e6eef8;
-    --accent: #4f46e5; /* indigo */
-    --accent-2: #06b6d4; /* teal */
-    --card-bg: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
-    --glass-bg: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
-    --glass-border: rgba(255,255,255,0.18);
-    --glass-shadow: inset 0 1px 0 rgba(255,255,255,0.24), 0 18px 45px rgba(2,6,23,0.3);
+    --bg: #1c1426; /* deep plum */
+    --surface: #261a35;
+    --muted: #b8a9c8;
+    --text: #f6eefc;
+    --accent: #7c4dff; /* vivid purple */
+    --accent-2: #b388ff; /* soft lavender */
+    --card-bg: linear-gradient(135deg, rgba(255,255,255,0.14), rgba(168,139,255,0.08));
+    --glass-bg: linear-gradient(135deg, rgba(255,255,255,0.14), rgba(168,139,255,0.08));
+    --glass-border: rgba(255,255,255,0.16);
+    --glass-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 18px 45px rgba(28, 20, 38, 0.28);
 
     /* UI */
     --radius: 14px;
     --soft-radius: 10px;
     --product-image-height: 240px;
-    --shadow-1: 0 8px 30px rgba(2,6,23,0.6);
+    --shadow-1: 0 8px 30px rgba(28, 20, 38, 0.35);
 }
 
 body{
-    background: linear-gradient(180deg, #071129 0%, #071827 60%);
+    background: linear-gradient(180deg, #1a1222 0%, #261a35 60%);
     color:var(--text);
     font-family:var(--font-sans);
     font-size:var(--base-font-size);
@@ -64,13 +64,13 @@ body::after{
 body::before{
     top:-120px;
     left:-120px;
-    background:radial-gradient(circle, rgba(79,70,229,0.5), transparent 70%);
+    background:radial-gradient(circle, rgba(124,77,255,0.42), transparent 70%);
 }
 
 body::after{
     bottom:-140px;
     right:-120px;
-    background:radial-gradient(circle, rgba(6,182,212,0.4), transparent 70%);
+    background:radial-gradient(circle, rgba(179,136,255,0.34), transparent 70%);
 }
 
 /* ==========================
@@ -92,7 +92,7 @@ header{
     left:0;
     right:0;
     z-index:1000;
-    background:rgba(55, 23, 159, 0.62);
+    background:rgba(34, 24, 47, 0.74);
     backdrop-filter:blur(22px) saturate(180%);
     -webkit-backdrop-filter:blur(22px) saturate(180%);
     color:var(--text);
