@@ -348,6 +348,20 @@ nav a:hover{
     color:var(--text);
 }
 
+.home-controls{
+    justify-content:center;
+    margin-top:14px;
+}
+
+.home-controls > button:first-child,
+.home-controls > button:last-child{
+    min-width:48px;
+}
+
+.home-add-btn{
+    width:100%;
+}
+
 .product{
     width:92%;
     max-width:1100px;

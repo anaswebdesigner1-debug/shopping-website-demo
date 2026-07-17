@@ -202,12 +202,12 @@ function renderProducts(list){
 
         <br><br>
 
-        <div class="quantity-controls" style="display:flex;justify-content:space-between;align-items:center;gap:10px;">
+        <div class="quantity-controls home-controls">
             ${quantity === 0 ? `
-                <button onclick="addToCart(${product.id})" style="flex:1;padding:8px;">Add to cart</button>
+                <button onclick="addToCart(${product.id})" class="home-add-btn">Add to cart</button>
             ` : `
                 <button onclick="decreaseQuantityById(${product.id})">−</button>
-                <span style="font-weight:bold;flex:1;text-align:center;">${quantity}</span>
+                <span class="quantity-value">${quantity}</span>
                 <button onclick="addToCart(${product.id})">+</button>
             `}
         </div>
