@@ -17,29 +17,26 @@
     --base-font-size:16px;
 
     /* Colors */
-    --bg: #050816;
-    --surface: rgba(8, 15, 33, 0.9);
-    --muted: #9fb0cc;
-    --text: #f4f7ff;
-    --accent: #7c3aed;
-    --accent-2: #22d3ee;
-    --card-bg: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.08));
-    --glass-bg: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.06));
-    --glass-border: rgba(255,255,255,0.2);
-    --glass-shadow: inset 0 1px 0 rgba(255,255,255,0.28), 0 20px 50px rgba(2,6,23,0.35);
+    --bg: #0f1724; /* deep navy */
+    --surface: #0b1220;
+    --muted: #94a3b8;
+    --text: #e6eef8;
+    --accent: #4f46e5; /* indigo */
+    --accent-2: #06b6d4; /* teal */
+    --card-bg: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
+    --glass-bg: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
+    --glass-border: rgba(255,255,255,0.18);
+    --glass-shadow: inset 0 1px 0 rgba(255,255,255,0.24), 0 18px 45px rgba(2,6,23,0.3);
 
     /* UI */
-    --radius: 18px;
-    --soft-radius: 12px;
+    --radius: 14px;
+    --soft-radius: 10px;
     --product-image-height: 360px;
-    --shadow-1: 0 12px 35px rgba(2,6,23,0.55);
+    --shadow-1: 0 8px 30px rgba(2,6,23,0.6);
 }
 
 body{
-    background:
-        radial-gradient(circle at top left, rgba(124,58,237,0.28), transparent 28%),
-        radial-gradient(circle at bottom right, rgba(34,211,238,0.22), transparent 30%),
-        linear-gradient(135deg, #06101f 0%, #071827 55%, #050816 100%);
+    background: linear-gradient(180deg, #071129 0%, #071827 60%);
     color:var(--text);
     font-family:var(--font-sans);
     font-size:var(--base-font-size);
@@ -95,9 +92,9 @@ header{
     left:0;
     right:0;
     z-index:1000;
-    background:rgba(7,17,41,0.58);
-    backdrop-filter:blur(24px) saturate(180%);
-    -webkit-backdrop-filter:blur(24px) saturate(180%);
+    background:rgba(7,17,41,0.62);
+    backdrop-filter:blur(22px) saturate(180%);
+    -webkit-backdrop-filter:blur(22px) saturate(180%);
     color:var(--text);
     display:flex;
     justify-content:space-between;
@@ -105,11 +102,11 @@ header{
     gap:16px;
     padding:16px 24px;
     flex-wrap:wrap;
-    border:1px solid rgba(255,255,255,0.14);
+    border:1px solid var(--glass-border);
     border-top:none;
     border-left:none;
     border-right:none;
-    box-shadow:inset 0 -1px 0 rgba(255,255,255,0.1), 0 10px 30px rgba(2,6,23,0.25);
+    box-shadow:var(--glass-shadow);
 }
 
 .logo{
@@ -125,11 +122,10 @@ header input{
     min-width:0;
     padding:12px 14px;
     border:none;
-    border-radius:999px;
-    background:rgba(255,255,255,0.08);
+    border-radius:12px;
+    background:rgba(255,255,255,0.03);
     color:var(--text);
-    outline:1px solid rgba(255,255,255,0.1);
-    box-shadow:inset 0 1px 0 rgba(255,255,255,0.12);
+    outline:1px solid rgba(255,255,255,0.03);
 }
 
 nav{
@@ -168,7 +164,7 @@ nav a:hover{
     padding:64px 20px;
     text-align:center;
     margin:30px auto 40px;
-    border-radius:24px;
+    border-radius:16px;
     width:92%;
     max-width:1200px;
     box-shadow:var(--glass-shadow);
@@ -257,7 +253,7 @@ nav a:hover{
     -webkit-backdrop-filter:blur(18px) saturate(180%);
     border-radius:var(--radius);
     box-shadow:var(--glass-shadow);
-    transition:transform .22s cubic-bezier(.2,.9,.3,1), box-shadow .22s, border-color .22s ease;
+    transition:transform .22s cubic-bezier(.2,.9,.3,1), box-shadow .22s;
     border:1px solid var(--glass-border);
 }
 
@@ -271,8 +267,7 @@ nav a:hover{
 
 .card:hover{
     transform:translateY(-8px) scale(1.01);
-    box-shadow:0 24px 55px rgba(2,6,23,0.65);
-    border-color:rgba(255,255,255,0.3);
+    box-shadow:0 22px 50px rgba(2,6,23,0.65);
 }
 
 .card img{
@@ -306,72 +301,21 @@ nav a:hover{
     width:100%;
     padding:12px;
     border:none;
-    border-radius:999px;
+    border-radius:10px;
     background:linear-gradient(90deg,var(--accent),var(--accent-2));
     color:white;
     cursor:pointer;
     font-weight:700;
-    box-shadow:0 10px 24px rgba(79,70,229,0.18);
 }
 
 .card button:hover{
     transform:translateY(-3px);
-    box-shadow:0 12px 32px rgba(34,211,238,0.24);
+    box-shadow:0 8px 30px rgba(79,70,229,0.18);
 }
 
 /* ==========================
    PRODUCT PAGE
 ========================== */
-
-.quantity-controls{
-    display:inline-flex;
-    align-items:center;
-    gap:10px;
-    flex-wrap:nowrap;
-    margin-top:18px;
-    white-space:nowrap;
-}
-
-.quantity-controls button{
-    border:none;
-    border-radius:10px;
-    padding:10px 14px;
-    background:linear-gradient(90deg,var(--accent),var(--accent-2));
-    color:white;
-    cursor:pointer;
-    font-weight:700;
-    width:auto;
-    min-width:48px;
-    transition:transform .16s ease, box-shadow .16s ease;
-}
-
-.quantity-controls button:hover{
-    transform:translateY(-2px);
-    box-shadow:0 8px 24px rgba(79,70,229,0.2);
-}
-
-.quantity-controls .quantity-value{
-    min-width:36px;
-    text-align:center;
-    font-weight:700;
-    color:var(--text);
-}
-
-.home-controls{
-    justify-content:center;
-    margin-top:14px;
-    display:inline-flex;
-    flex-wrap:nowrap;
-}
-
-.home-controls > button:first-child,
-.home-controls > button:last-child{
-    min-width:48px;
-}
-
-.home-add-btn{
-    width:100%;
-}
 
 .product{
     width:92%;
@@ -408,6 +352,72 @@ nav a:hover{
 .product-info p{
     margin-bottom:15px;
     color:var(--muted);
+}
+
+.product-info .category-label{
+    display:inline-block;
+    margin-bottom:16px;
+    color:var(--accent-2);
+    font-weight:700;
+}
+
+.recommendations{
+    width:92%;
+    max-width:1100px;
+    margin:0 auto 40px;
+}
+
+.recommendations h2{
+    font-size:22px;
+    margin-bottom:18px;
+    color:var(--text);
+}
+
+.recommendations-grid{
+    display:grid;
+    gap:18px;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.recommendation-card{
+    overflow:hidden;
+    border-radius:16px;
+    background:var(--glass-bg);
+    border:1px solid rgba(255,255,255,0.12);
+    box-shadow:var(--glass-shadow);
+    transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.recommendation-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 18px 36px rgba(2,6,23,0.35);
+}
+
+.recommendation-card a{
+    display:block;
+    color:inherit;
+}
+
+.recommendation-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    background:rgba(255,255,255,0.04);
+}
+
+.recommendation-info{
+    padding:14px 16px 18px;
+}
+
+.recommendation-info h3{
+    margin:0 0 10px;
+    font-size:17px;
+}
+
+.recommendation-info p{
+    margin:0;
+    color:var(--accent);
+    font-weight:700;
 }
 
 /* ==========================
