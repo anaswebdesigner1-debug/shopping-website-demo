@@ -38,6 +38,9 @@ body{
     font-family:var(--font-sans);
     font-size:var(--base-font-size);
     line-height:1.45;
+    padding-top:96px;
+    scroll-behavior:smooth;
+    overflow-x:hidden;
 }
 
 /* ==========================
@@ -54,14 +57,23 @@ a{
 ========================== */
 
 header{
-    background:transparent;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+    background:rgba(7,17,41,0.82);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
     color:var(--text);
     display:flex;
     justify-content:space-between;
     align-items:center;
-    gap:20px;
-    padding:22px 30px;
+    gap:16px;
+    padding:16px 24px;
     flex-wrap:wrap;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+    box-shadow:0 10px 30px rgba(2,6,23,0.25);
 }
 
 .logo{
@@ -73,8 +85,8 @@ header{
 }
 
 header input{
-    flex:1;
-    min-width:220px;
+    flex:1 1 240px;
+    min-width:0;
     padding:12px 14px;
     border:none;
     border-radius:12px;
@@ -85,8 +97,9 @@ header input{
 
 nav{
     display:flex;
-    gap:14px;
+    gap:10px;
     align-items:center;
+    flex-wrap:wrap;
 }
 
 nav a{
@@ -96,6 +109,7 @@ nav a{
     transition:all .18s ease;
     font-weight:600;
     font-size:14px;
+    white-space:nowrap;
 }
 
 nav a:hover{
@@ -516,8 +530,12 @@ footer{
 }
 
 @media (max-width:700px){
-    header{ flex-direction:column; align-items:stretch; gap:12px; }
-    nav{ justify-content:center; }
+    body{ padding-top:148px; }
+    header{ padding:14px 16px; gap:10px; }
+    header input{ order:3; flex-basis:100%; width:100%; }
+    nav{ justify-content:center; width:100%; }
+    nav a{ padding:8px 10px; font-size:13px; }
+    .hero{ margin-top:8px; padding:48px 16px; }
     .hero h1{ font-size:30px; }
     .product{ flex-direction:column; }
     .card img{ height:220px; padding:12px; }
