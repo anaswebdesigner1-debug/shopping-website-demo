@@ -17,26 +17,29 @@
     --base-font-size:16px;
 
     /* Colors */
-    --bg: #0f1724; /* deep navy */
-    --surface: #0b1220;
-    --muted: #94a3b8;
-    --text: #e6eef8;
-    --accent: #4f46e5; /* indigo */
-    --accent-2: #06b6d4; /* teal */
-    --card-bg: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
-    --glass-bg: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
-    --glass-border: rgba(255,255,255,0.18);
-    --glass-shadow: inset 0 1px 0 rgba(255,255,255,0.24), 0 18px 45px rgba(2,6,23,0.3);
+    --bg: #050816;
+    --surface: rgba(8, 15, 33, 0.9);
+    --muted: #9fb0cc;
+    --text: #f4f7ff;
+    --accent: #7c3aed;
+    --accent-2: #22d3ee;
+    --card-bg: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.08));
+    --glass-bg: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.06));
+    --glass-border: rgba(255,255,255,0.2);
+    --glass-shadow: inset 0 1px 0 rgba(255,255,255,0.28), 0 20px 50px rgba(2,6,23,0.35);
 
     /* UI */
-    --radius: 14px;
-    --soft-radius: 10px;
+    --radius: 18px;
+    --soft-radius: 12px;
     --product-image-height: 360px;
-    --shadow-1: 0 8px 30px rgba(2,6,23,0.6);
+    --shadow-1: 0 12px 35px rgba(2,6,23,0.55);
 }
 
 body{
-    background: linear-gradient(180deg, #071129 0%, #071827 60%);
+    background:
+        radial-gradient(circle at top left, rgba(124,58,237,0.28), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(34,211,238,0.22), transparent 30%),
+        linear-gradient(135deg, #06101f 0%, #071827 55%, #050816 100%);
     color:var(--text);
     font-family:var(--font-sans);
     font-size:var(--base-font-size);
@@ -92,9 +95,9 @@ header{
     left:0;
     right:0;
     z-index:1000;
-    background:rgba(7,17,41,0.62);
-    backdrop-filter:blur(22px) saturate(180%);
-    -webkit-backdrop-filter:blur(22px) saturate(180%);
+    background:rgba(7,17,41,0.58);
+    backdrop-filter:blur(24px) saturate(180%);
+    -webkit-backdrop-filter:blur(24px) saturate(180%);
     color:var(--text);
     display:flex;
     justify-content:space-between;
@@ -102,11 +105,11 @@ header{
     gap:16px;
     padding:16px 24px;
     flex-wrap:wrap;
-    border:1px solid var(--glass-border);
+    border:1px solid rgba(255,255,255,0.14);
     border-top:none;
     border-left:none;
     border-right:none;
-    box-shadow:var(--glass-shadow);
+    box-shadow:inset 0 -1px 0 rgba(255,255,255,0.1), 0 10px 30px rgba(2,6,23,0.25);
 }
 
 .logo{
@@ -122,10 +125,11 @@ header input{
     min-width:0;
     padding:12px 14px;
     border:none;
-    border-radius:12px;
-    background:rgba(255,255,255,0.03);
+    border-radius:999px;
+    background:rgba(255,255,255,0.08);
     color:var(--text);
-    outline:1px solid rgba(255,255,255,0.03);
+    outline:1px solid rgba(255,255,255,0.1);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.12);
 }
 
 nav{
@@ -164,7 +168,7 @@ nav a:hover{
     padding:64px 20px;
     text-align:center;
     margin:30px auto 40px;
-    border-radius:16px;
+    border-radius:24px;
     width:92%;
     max-width:1200px;
     box-shadow:var(--glass-shadow);
@@ -253,7 +257,7 @@ nav a:hover{
     -webkit-backdrop-filter:blur(18px) saturate(180%);
     border-radius:var(--radius);
     box-shadow:var(--glass-shadow);
-    transition:transform .22s cubic-bezier(.2,.9,.3,1), box-shadow .22s;
+    transition:transform .22s cubic-bezier(.2,.9,.3,1), box-shadow .22s, border-color .22s ease;
     border:1px solid var(--glass-border);
 }
 
@@ -267,7 +271,8 @@ nav a:hover{
 
 .card:hover{
     transform:translateY(-8px) scale(1.01);
-    box-shadow:0 22px 50px rgba(2,6,23,0.65);
+    box-shadow:0 24px 55px rgba(2,6,23,0.65);
+    border-color:rgba(255,255,255,0.3);
 }
 
 .card img{
@@ -301,16 +306,17 @@ nav a:hover{
     width:100%;
     padding:12px;
     border:none;
-    border-radius:10px;
+    border-radius:999px;
     background:linear-gradient(90deg,var(--accent),var(--accent-2));
     color:white;
     cursor:pointer;
     font-weight:700;
+    box-shadow:0 10px 24px rgba(79,70,229,0.18);
 }
 
 .card button:hover{
     transform:translateY(-3px);
-    box-shadow:0 8px 30px rgba(79,70,229,0.18);
+    box-shadow:0 12px 32px rgba(34,211,238,0.24);
 }
 
 /* ==========================
