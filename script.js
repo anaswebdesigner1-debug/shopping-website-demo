@@ -492,7 +492,7 @@ function loadCartPage() {
 <div class="cart-item">
 
     <div style="display:flex;gap:10px;align-items:center;">
-        <img src="${item.image}" onerror="handleImageError(this)" style="width:80px;height:80px;object-fit:contain;border-radius:6px;"> 
+        <img src="${item.image}" onerror="handleImageError(this)" style="width:80px;height:80px;object-fit:cover;border-radius:6px;"> 
         <div>
             <h3 style="margin:0">${item.name}</h3>
             <p style="margin:4px 0">${money(item.price)}</p>
