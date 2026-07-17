@@ -31,7 +31,7 @@
     /* UI */
     --radius: 14px;
     --soft-radius: 10px;
-    --product-image-height: 360px;
+    --product-image-height: 240px;
     --shadow-1: 0 8px 30px rgba(2,6,23,0.6);
 }
 
@@ -271,7 +271,7 @@ nav a:hover{
 }
 
 .card img{
-    width:100%;
+    width: 200px;;
     height:var(--product-image-height);
     object-fit:cover;
     object-position:center;
