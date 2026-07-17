@@ -317,6 +317,37 @@ nav a:hover{
    PRODUCT PAGE
 ========================== */
 
+.quantity-controls{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:18px;
+}
+
+.quantity-controls button{
+    border:none;
+    border-radius:10px;
+    padding:10px 14px;
+    background:linear-gradient(90deg,var(--accent),var(--accent-2));
+    color:white;
+    cursor:pointer;
+    font-weight:700;
+    transition:transform .16s ease, box-shadow .16s ease;
+}
+
+.quantity-controls button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 24px rgba(79,70,229,0.2);
+}
+
+.quantity-controls .quantity-value{
+    min-width:36px;
+    text-align:center;
+    font-weight:700;
+    color:var(--text);
+}
+
 .product{
     width:92%;
     max-width:1100px;

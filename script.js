@@ -404,10 +404,10 @@ function loadProductPage() {
 
                     <div class="quantity-controls">
                         ${quantity === 0 ? `
-                            <button onclick="addToCart(${product.id})" style="padding:8px;">Add to cart</button>
+                            <button onclick="addToCart(${product.id})">Add to cart</button>
                         ` : `
                             <button onclick="decreaseQuantityById(${product.id})">−</button>
-                            <span style="margin:0 10px;font-weight:bold;">${quantity}</span>
+                            <span class="quantity-value">${quantity}</span>
                             <button onclick="addToCart(${product.id})">+</button>
                         `}
                     </div>
