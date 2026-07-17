@@ -5,7 +5,7 @@
     "price": 350,
     "category": "Gaming",
     "image": "images/products/mouse.png",
-    "description": "RGB gaming mouse with adjustable DPI."
+    "description": "High-performance RGB gaming mouse featuring up to 12,800 DPI, 6 programmable buttons, ergonomic right-handed design, durable switches rated for 20 million clicks, and customizable lighting effects for competitive gaming."
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "price": 850,
     "category": "Gaming",
     "image": "images/products/keyboard.png",
-    "description": "Mechanical keyboard with RGB backlighting."
+    "description": "Mechanical gaming keyboard with tactile switches, customizable RGB backlighting, anti-ghosting support, full N-key rollover, aluminum frame, and detachable USB cable for reliable everyday performance."
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "price": 3900,
     "category": "Electronics",
     "image": "images/products/monitor.png",
-    "description": "24-inch Full HD IPS monitor with 180Hz refresh rate."
+    "description": "24-inch Full HD IPS gaming monitor with a smooth 180Hz refresh rate, 1ms response time, HDR support, adaptive sync technology, ultra-thin bezels, and vibrant color reproduction for gaming and productivity."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "price": 180,
     "category": "Accessories",
     "image": "images/products/usb.png",
-    "description": "64GB USB 3.0 flash drive."
+    "description": "64GB USB 3.0 flash drive with fast read and write speeds, compact metal design, plug-and-play compatibility, and reliable storage for documents, photos, videos, and backups."
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "price": 750,
     "category": "Electronics",
     "image": "images/products/headset.png",
-    "description": "Wireless headset with built-in microphone."
+    "description": "Wireless Bluetooth headset featuring crystal-clear stereo sound, built-in noise-reducing microphone, soft memory foam ear cushions, up to 30 hours of battery life, and USB-C fast charging."
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "price": 3200,
     "category": "Gaming",
     "image": "images/products/chair.png",
-    "description": "Comfortable ergonomic gaming chair."
+    "description": "Premium ergonomic gaming chair with adjustable armrests, reclining backrest up to 155°, lumbar and neck support pillows, high-density foam padding, and a durable steel frame."
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "price": 450,
     "category": "Accessories",
     "image": "images/products/backpack.png",
-    "description": "Water-resistant backpack for laptops up to 15.6 inches."
+    "description": "Stylish water-resistant backpack designed for laptops up to 15.6 inches, featuring multiple storage compartments, padded shoulder straps, hidden security pocket, and reinforced carrying handle."
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "price": 8800,
     "category": "Electronics",
     "image": "images/products/monitor2.png",
-    "description": "27-inch QHD IPS monitor with 180Hz refresh rate."
+    "description": "27-inch QHD IPS gaming monitor with 2560×1440 resolution, 180Hz refresh rate, 1ms response time, HDR support, adaptive sync, wide color gamut, and adjustable ergonomic stand."
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "price": 950,
     "category": "Gaming",
     "image": "images/products/controller.png",
-    "description": "Wireless game controller for PC."
+    "description": "Ergonomic wireless controller compatible with PC, featuring dual vibration motors, precision analog sticks, responsive triggers, rechargeable battery, and Bluetooth or USB connectivity."
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "price": 850,
     "category": "Electronics",
     "image": "images/products/webcam.png",
-    "description": "Full HD webcam with built-in microphone."
+    "description": "Full HD 1080p webcam with autofocus, dual built-in microphones, automatic low-light correction, privacy shutter, and universal clip for online meetings, streaming, and video calls."
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "price": 2400,
     "category": "Gaming",
     "image": "images/products/desk.png",
-    "description": "Large gaming desk with cable management."
+    "description": "Spacious gaming desk with durable carbon-fiber textured surface, integrated cable management, sturdy steel frame, headphone hook, cup holder, and enough room for dual-monitor setups."
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "price": 2600,
     "category": "Accessories",
     "image": "images/products/ssd.png",
-    "description": "High-speed USB-C portable SSD."
+    "description": "High-speed 1TB USB-C portable SSD delivering transfer speeds up to 1050MB/s, compact shock-resistant design, plug-and-play support, and compatibility with Windows, macOS, Android, and gaming consoles."
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "price": 650,
     "category": "Electronics",
     "image": "images/products/speaker.png",
-    "description": "Portable Bluetooth speaker."
+    "description": "Portable Bluetooth speaker with rich stereo sound, deep bass, IPX5 water resistance, up to 15 hours of battery life, built-in microphone, and support for AUX and microSD playback."
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "price": 1200,
     "category": "Gaming",
     "image": "images/products/headset2.png",
-    "description": "Gaming headset with detachable microphone."
+    "description": "Professional gaming headset featuring immersive 7.1 surround sound, detachable noise-canceling microphone, memory foam ear cushions, RGB lighting, and multi-platform compatibility."
   },
   {
     "id": 15,
@@ -117,6 +117,6 @@
     "price": 280,
     "category": "Accessories",
     "image": "images/products/mouse2.png",
-    "description": "Comfortable wireless mouse."
+    "description": "Comfortable wireless optical mouse with adjustable DPI settings, silent click buttons, ergonomic shape, reliable 2.4GHz connection, energy-efficient design, and up to 12 months of battery life."
   }
 ]
