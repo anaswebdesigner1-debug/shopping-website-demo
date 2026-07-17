@@ -5,7 +5,7 @@
     "price": 350,
     "category": "Gaming",
     "image": "images/products/mouse.png",
-    "description": "High-performance RGB gaming mouse featuring up to 12,800 DPI, 6 programmable buttons, ergonomic right-handed design, durable switches rated for 20 million clicks, and customizable lighting effects for competitive gaming."
+    "description": "Take your gaming performance to the next level with this premium RGB gaming mouse. Equipped with a high-precision optical sensor supporting up to 12,800 DPI, six programmable buttons, customizable RGB lighting, ergonomic right-handed design, durable mechanical switches rated for over 20 million clicks, and ultra-smooth PTFE feet. Perfect for FPS, MOBA, RPG, and everyday gaming with fast response times and exceptional accuracy."
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "price": 850,
     "category": "Gaming",
     "image": "images/products/keyboard.png",
-    "description": "Mechanical gaming keyboard with tactile switches, customizable RGB backlighting, anti-ghosting support, full N-key rollover, aluminum frame, and detachable USB cable for reliable everyday performance."
+    "description": "Mechanical gaming keyboard featuring tactile mechanical switches, dynamic RGB backlighting with multiple lighting modes, anti-ghosting technology, full N-key rollover, dedicated multimedia shortcuts, adjustable feet, and a sturdy aluminum top plate. Built for gamers, programmers, and anyone who enjoys fast, satisfying typing."
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "price": 3900,
     "category": "Electronics",
     "image": "images/products/monitor.png",
-    "description": "24-inch Full HD IPS gaming monitor with a smooth 180Hz refresh rate, 1ms response time, HDR support, adaptive sync technology, ultra-thin bezels, and vibrant color reproduction for gaming and productivity."
+    "description": "Enjoy stunning visuals on this 24-inch Full HD IPS gaming monitor with a smooth 180Hz refresh rate, 1ms response time, HDR support, Adaptive Sync technology, flicker-free display, low blue light mode, and ultra-slim bezels. Delivers vibrant colors, wide viewing angles, and smooth gameplay for gaming, studying, streaming, and office work."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "price": 180,
     "category": "Accessories",
     "image": "images/products/usb.png",
-    "description": "64GB USB 3.0 flash drive with fast read and write speeds, compact metal design, plug-and-play compatibility, and reliable storage for documents, photos, videos, and backups."
+    "description": "Compact 64GB USB 3.0 flash drive with fast transfer speeds, durable metal casing, plug-and-play compatibility, and support for Windows, macOS, Linux, TVs, and gaming consoles. Perfect for storing documents, photos, videos, software, music, and backups while remaining small enough to fit in any pocket."
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "price": 750,
     "category": "Electronics",
     "image": "images/products/headset.png",
-    "description": "Wireless Bluetooth headset featuring crystal-clear stereo sound, built-in noise-reducing microphone, soft memory foam ear cushions, up to 30 hours of battery life, and USB-C fast charging."
+    "description": "Wireless Bluetooth headset with crystal-clear stereo sound, deep bass, Bluetooth 5.3 connectivity, built-in HD microphone, memory foam ear cushions, adjustable headband, USB-C fast charging, and up to 30 hours of battery life. Ideal for music, online meetings, gaming, studying, and everyday use."
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "price": 3200,
     "category": "Gaming",
     "image": "images/products/chair.png",
-    "description": "Premium ergonomic gaming chair with adjustable armrests, reclining backrest up to 155°, lumbar and neck support pillows, high-density foam padding, and a durable steel frame."
+    "description": "Premium ergonomic gaming chair featuring adjustable armrests, reclining backrest up to 155 degrees, removable lumbar and neck support pillows, premium PU leather, high-density foam, heavy-duty steel frame, class-4 gas lift, and smooth-rolling wheels. Designed for maximum comfort during long gaming or working sessions."
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "price": 450,
     "category": "Accessories",
     "image": "images/products/backpack.png",
-    "description": "Stylish water-resistant backpack designed for laptops up to 15.6 inches, featuring multiple storage compartments, padded shoulder straps, hidden security pocket, and reinforced carrying handle."
+    "description": "Modern water-resistant backpack designed for laptops up to 15.6 inches. Includes a padded laptop compartment, spacious storage pockets, hidden anti-theft pocket, breathable shoulder straps, reinforced handle, side bottle holders, premium zippers, and durable materials suitable for travel, work, school, and daily commuting."
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "price": 8800,
     "category": "Electronics",
     "image": "images/products/monitor2.png",
-    "description": "27-inch QHD IPS gaming monitor with 2560×1440 resolution, 180Hz refresh rate, 1ms response time, HDR support, adaptive sync, wide color gamut, and adjustable ergonomic stand."
+    "description": "Experience ultra-sharp visuals with this 27-inch QHD IPS monitor featuring 2560×1440 resolution, 180Hz refresh rate, 1ms response time, HDR support, Adaptive Sync technology, 99% sRGB color accuracy, height-adjustable ergonomic stand, and ultra-thin bezels. Perfect for gaming, editing, streaming, and professional creative work."
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "price": 950,
     "category": "Gaming",
     "image": "images/products/controller.png",
-    "description": "Ergonomic wireless controller compatible with PC, featuring dual vibration motors, precision analog sticks, responsive triggers, rechargeable battery, and Bluetooth or USB connectivity."
+    "description": "Comfortable wireless game controller compatible with Windows PCs. Features precision analog sticks, responsive triggers, dual vibration motors, Bluetooth and USB connectivity, textured grips, rechargeable battery lasting up to 20 hours, and broad compatibility with modern Steam, Epic Games, and Xbox-supported titles."
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "price": 850,
     "category": "Electronics",
     "image": "images/products/webcam.png",
-    "description": "Full HD 1080p webcam with autofocus, dual built-in microphones, automatic low-light correction, privacy shutter, and universal clip for online meetings, streaming, and video calls."
+    "description": "Full HD 1080p webcam featuring autofocus, dual noise-reduction microphones, automatic low-light correction, built-in privacy shutter, universal mounting clip, and plug-and-play USB connectivity. Great for Zoom meetings, online classes, livestreaming, YouTube content creation, and video conferencing."
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "price": 2400,
     "category": "Gaming",
     "image": "images/products/desk.png",
-    "description": "Spacious gaming desk with durable carbon-fiber textured surface, integrated cable management, sturdy steel frame, headphone hook, cup holder, and enough room for dual-monitor setups."
+    "description": "Large gaming desk with premium carbon fiber texture, heavy-duty steel frame, cable management tray, cup holder, headphone hook, adjustable feet, scratch-resistant surface, and enough space for dual-monitor or triple-monitor setups along with your gaming peripherals and accessories."
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "price": 2600,
     "category": "Accessories",
     "image": "images/products/ssd.png",
-    "description": "High-speed 1TB USB-C portable SSD delivering transfer speeds up to 1050MB/s, compact shock-resistant design, plug-and-play support, and compatibility with Windows, macOS, Android, and gaming consoles."
+    "description": "Ultra-fast 1TB portable SSD featuring USB-C connectivity, read speeds up to 1050MB/s, shock-resistant aluminum enclosure, compact pocket-sized design, password protection support, and compatibility with Windows, macOS, Linux, Android, PlayStation, Xbox, and other USB-C devices."
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "price": 650,
     "category": "Electronics",
     "image": "images/products/speaker.png",
-    "description": "Portable Bluetooth speaker with rich stereo sound, deep bass, IPX5 water resistance, up to 15 hours of battery life, built-in microphone, and support for AUX and microSD playback."
+    "description": "Portable Bluetooth speaker delivering rich stereo sound, powerful bass, Bluetooth 5.2 connectivity, IPX5 water resistance, built-in microphone for hands-free calls, AUX input, microSD card support, USB charging, and up to 15 hours of battery life. Perfect for indoor and outdoor entertainment."
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "price": 1200,
     "category": "Gaming",
     "image": "images/products/headset2.png",
-    "description": "Professional gaming headset featuring immersive 7.1 surround sound, detachable noise-canceling microphone, memory foam ear cushions, RGB lighting, and multi-platform compatibility."
+    "description": "Professional gaming headset featuring immersive virtual 7.1 surround sound, detachable noise-canceling microphone, customizable RGB lighting, breathable memory foam ear cushions, adjustable steel-reinforced headband, in-line audio controls, and compatibility with PC, PlayStation, Xbox, Nintendo Switch, and mobile devices."
   },
   {
     "id": 15,
@@ -117,6 +117,6 @@
     "price": 280,
     "category": "Accessories",
     "image": "images/products/mouse2.png",
-    "description": "Comfortable wireless optical mouse with adjustable DPI settings, silent click buttons, ergonomic shape, reliable 2.4GHz connection, energy-efficient design, and up to 12 months of battery life."
+    "description": "Reliable wireless optical mouse with adjustable DPI settings, silent click buttons, comfortable ergonomic design, precision optical sensor, energy-efficient technology providing up to 12 months of battery life, stable 2.4GHz wireless connection, and plug-and-play USB receiver. Ideal for office work, studying, and everyday computing."
   }
 ]
