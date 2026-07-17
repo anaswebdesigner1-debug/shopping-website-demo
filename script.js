@@ -168,9 +168,10 @@ function renderProducts(list){
 <div class="card">
 
     <div class="card-image">
-        <a href="product.html?id=${product.id}">
+        <a href="product.html?id=${product.id}" aria-label="View details for ${product.name}">
         <img
             src="${product.image}"
+            alt="${product.name}"
             onerror="handleImageError(this)"
         >
         </a>
@@ -421,7 +422,7 @@ function loadProductPage() {
 
             <div class="product">
 
-                <img src="${product.image}" onerror="handleImageError(this)">
+                <img src="${product.image}" alt="${product.name}" onerror="handleImageError(this)">
 
                 <div class="product-info">
 
@@ -492,8 +493,8 @@ function loadCartPage() {
 <div class="cart-item">
 
     <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;">
-        <a href="product.html?id=${item.id}" style="text-decoration:none;color:inherit;display:flex;justify-content:center;align-items:center;">
-            <img src="${item.image}" onerror="handleImageError(this)" style="width:110px;height:140px;object-fit:cover;object-position:center;border-radius:10px;display:block;">
+        <a href="product.html?id=${item.id}" style="text-decoration:none;color:inherit;display:flex;justify-content:center;align-items:center;" aria-label="View details for ${item.name}">
+            <img src="${item.image}" alt="${item.name}" onerror="handleImageError(this)" style="width:110px;height:140px;object-fit:cover;object-position:center;border-radius:10px;display:block;">
         </a>
         <div>
             <h3 style="margin:0">${item.name}</h3>
