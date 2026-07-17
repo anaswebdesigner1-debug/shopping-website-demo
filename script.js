@@ -168,12 +168,12 @@ function renderProducts(list){
 <div class="card">
 
     <div class="card-image">
-
+        <a href="product.html?id=${product.id}">
         <img
             src="${product.image}"
             onerror="handleImageError(this)"
         >
-
+        </a>
     </div>
 
     <div class="card-content">
