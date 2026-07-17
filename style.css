@@ -318,11 +318,12 @@ nav a:hover{
 ========================== */
 
 .quantity-controls{
-    display:flex;
+    display:inline-flex;
     align-items:center;
     gap:10px;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     margin-top:18px;
+    white-space:nowrap;
 }
 
 .quantity-controls button{
@@ -333,6 +334,8 @@ nav a:hover{
     color:white;
     cursor:pointer;
     font-weight:700;
+    width:auto;
+    min-width:48px;
     transition:transform .16s ease, box-shadow .16s ease;
 }
 
@@ -351,6 +354,8 @@ nav a:hover{
 .home-controls{
     justify-content:center;
     margin-top:14px;
+    display:inline-flex;
+    flex-wrap:nowrap;
 }
 
 .home-controls > button:first-child,
