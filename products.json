@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Gaming Mouse",
+    "price": 350,
+    "category": "Gaming",
+    "image": "images/products/mouse.jpg",
+    "description": "RGB gaming mouse with adjustable DPI."
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 850,
+    "category": "Gaming",
+    "image": "images/products/keyboard.jpg",
+    "description": "Mechanical keyboard with RGB backlighting."
+  },
+  {
+    "id": 3,
+    "name": "24-inch IPS Monitor",
+    "price": 3900,
+    "category": "Electronics",
+    "image": "images/products/monitor.jpg",
+    "description": "24-inch Full HD IPS monitor with 180Hz refresh rate."
+  },
+  {
+    "id": 4,
+    "name": "USB Flash Drive 64GB",
+    "price": 180,
+    "category": "Accessories",
+    "image": "images/products/usb.jpg",
+    "description": "64GB USB 3.0 flash drive."
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Headset",
+    "price": 750,
+    "category": "Electronics",
+    "image": "images/products/headset.jpg",
+    "description": "Wireless headset with built-in microphone."
+  },
+  {
+    "id": 6,
+    "name": "Gaming Chair",
+    "price": 3200,
+    "category": "Gaming",
+    "image": "images/products/chair.jpg",
+    "description": "Comfortable ergonomic gaming chair."
+  },
+  {
+    "id": 7,
+    "name": "Laptop Backpack",
+    "price": 450,
+    "category": "Accessories",
+    "image": "images/products/backpack.jpg",
+    "description": "Water-resistant backpack for laptops up to 15.6 inches."
+  },
+  {
+    "id": 8,
+    "name": "27-inch 2K Monitor",
+    "price": 8800,
+    "category": "Electronics",
+    "image": "images/products/monitor2.jpg",
+    "description": "27-inch QHD IPS monitor with 180Hz refresh rate."
+  },
+  {
+    "id": 9,
+    "name": "Wireless Controller",
+    "price": 950,
+    "category": "Gaming",
+    "image": "images/products/controller.jpg",
+    "description": "Wireless game controller for PC."
+  },
+  {
+    "id": 10,
+    "name": "1080P Webcam",
+    "price": 850,
+    "category": "Electronics",
+    "image": "images/products/webcam.jpg",
+    "description": "Full HD webcam with built-in microphone."
+  },
+  {
+    "id": 11,
+    "name": "Gaming Desk",
+    "price": 2400,
+    "category": "Gaming",
+    "image": "images/products/desk.jpg",
+    "description": "Large gaming desk with cable management."
+  },
+  {
+    "id": 12,
+    "name": "Portable SSD 1TB",
+    "price": 2600,
+    "category": "Accessories",
+    "image": "images/products/ssd.jpg",
+    "description": "High-speed USB-C portable SSD."
+  },
+  {
+    "id": 13,
+    "name": "Bluetooth Speaker",
+    "price": 650,
+    "category": "Electronics",
+    "image": "images/products/speaker.jpg",
+    "description": "Portable Bluetooth speaker."
+  },
+  {
+    "id": 14,
+    "name": "Gaming Headset Pro",
+    "price": 1200,
+    "category": "Gaming",
+    "image": "images/products/headset2.jpg",
+    "description": "Gaming headset with detachable microphone."
+  },
+  {
+    "id": 15,
+    "name": "Wireless Mouse",
+    "price": 280,
+    "category": "Accessories",
+    "image": "images/products/mouse2.jpg",
+    "description": "Comfortable wireless mouse."
+  }
+]

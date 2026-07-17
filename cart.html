@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <a href="index.html" class="logo">
+        MiniStore
+    </a>
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+        <a href="cart.html">
+            🛒 Cart
+            <span id="cart-count">
+                0
+            </span>
+        </a>
+
+    </nav>
+
+</header>
+
+<div class="cart">
+
+    <h1>Your Cart</h1>
+
+    <br>
+
+    <div id="cart">
+
+        <!-- Cart items appear here -->
+
+    </div>
+
+    <br>
+
+    <button class="checkout-btn" onclick="checkout()">
+        Checkout
+    </button>
+
+</div>
+
+<footer>
+
+    © 2026 MiniStore
+
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+
+function checkout(){
+
+    if(cart.length===0){
+
+        alert("Your cart is empty.");
+
+        return;
+
+    }
+
+    alert("Thank you for your order!");
+
+    cart=[];
+
+    localStorage.removeItem("cart");
+
+    updateCartCount();
+
+    loadCartPage();
+
+}
+
+</script>
+
+</body>
+
+</html>
